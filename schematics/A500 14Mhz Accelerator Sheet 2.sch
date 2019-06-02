@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:A500 14Mhz Accelerator-cache
-LIBS:A500 FastRAM-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -257,10 +256,10 @@ F 3 "~" H 2400 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C2
+L Device:C_Small C1
 U 1 1 5CF7BBC3
 P 3150 1400
-F 0 "C2" V 2921 1400 50  0000 C CNN
+F 0 "C1" V 2921 1400 50  0000 C CNN
 F 1 "22pf" V 3012 1400 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 3150 1400 50  0001 C CNN
 F 3 "~" H 3150 1400 50  0001 C CNN
@@ -268,10 +267,10 @@ F 3 "~" H 3150 1400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C3
+L Device:C_Small C2
 U 1 1 5CF7C3B2
 P 3150 2000
-F 0 "C3" V 2921 2000 50  0000 C CNN
+F 0 "C2" V 2921 2000 50  0000 C CNN
 F 1 "22pf" V 3012 2000 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 3150 2000 50  0001 C CNN
 F 3 "~" H 3150 2000 50  0001 C CNN
@@ -598,4 +597,142 @@ Text HLabel 5150 5000 0    59   Input ~ 0
 GND
 Text HLabel 5150 5100 0    59   Input ~ 0
 GND
+$Comp
+L Device:C_Small C3
+U 1 1 5D2A5E7D
+P 7450 5050
+F 0 "C3" H 7542 5096 50  0000 L CNN
+F 1 "0.1uF" H 7542 5005 50  0000 L CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 7450 5050 50  0001 C CNN
+F 3 "~" H 7450 5050 50  0001 C CNN
+	1    7450 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5D2A611E
+P 7950 5050
+F 0 "C4" H 8042 5096 50  0000 L CNN
+F 1 "0.1uF" H 8042 5005 50  0000 L CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 7950 5050 50  0001 C CNN
+F 3 "~" H 7950 5050 50  0001 C CNN
+	1    7950 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 5D2A69DB
+P 8400 5050
+F 0 "C5" H 8492 5096 50  0000 L CNN
+F 1 "0.1uF" H 8492 5005 50  0000 L CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 8400 5050 50  0001 C CNN
+F 3 "~" H 8400 5050 50  0001 C CNN
+	1    8400 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 5D2A6F00
+P 8850 5050
+F 0 "C6" H 8942 5096 50  0000 L CNN
+F 1 "0.1uF" H 8942 5005 50  0000 L CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 8850 5050 50  0001 C CNN
+F 3 "~" H 8850 5050 50  0001 C CNN
+	1    8850 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 5D2A7356
+P 9300 5050
+F 0 "C7" H 9392 5096 50  0000 L CNN
+F 1 "0.1uF" H 9392 5005 50  0000 L CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 9300 5050 50  0001 C CNN
+F 3 "~" H 9300 5050 50  0001 C CNN
+	1    9300 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 5D2A7BA0
+P 9750 5050
+F 0 "C8" H 9842 5096 50  0000 L CNN
+F 1 "0.1uF" H 9842 5005 50  0000 L CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 9750 5050 50  0001 C CNN
+F 3 "~" H 9750 5050 50  0001 C CNN
+	1    9750 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C9
+U 1 1 5D2A817D
+P 10200 5050
+F 0 "C9" H 10292 5096 50  0000 L CNN
+F 1 "0.1uF" H 10292 5005 50  0000 L CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 10200 5050 50  0001 C CNN
+F 3 "~" H 10200 5050 50  0001 C CNN
+	1    10200 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C10
+U 1 1 5D2A9402
+P 10650 5050
+F 0 "C10" H 10742 5096 50  0000 L CNN
+F 1 "0.1uF" H 10742 5005 50  0000 L CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 10650 5050 50  0001 C CNN
+F 3 "~" H 10650 5050 50  0001 C CNN
+	1    10650 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 4950 7950 4950
+Wire Wire Line
+	7950 4950 8400 4950
+Connection ~ 7950 4950
+Wire Wire Line
+	8400 4950 8850 4950
+Connection ~ 8400 4950
+Wire Wire Line
+	8850 4950 9300 4950
+Connection ~ 8850 4950
+Wire Wire Line
+	9300 4950 9750 4950
+Connection ~ 9300 4950
+Wire Wire Line
+	9750 4950 10200 4950
+Connection ~ 9750 4950
+Wire Wire Line
+	10200 4950 10650 4950
+Connection ~ 10200 4950
+Wire Wire Line
+	10650 5150 10200 5150
+Wire Wire Line
+	9750 5150 10200 5150
+Connection ~ 10200 5150
+Wire Wire Line
+	9750 5150 9300 5150
+Connection ~ 9750 5150
+Wire Wire Line
+	9300 5150 8850 5150
+Connection ~ 9300 5150
+Wire Wire Line
+	8850 5150 8400 5150
+Connection ~ 8850 5150
+Wire Wire Line
+	8400 5150 7950 5150
+Connection ~ 8400 5150
+Wire Wire Line
+	7950 5150 7450 5150
+Connection ~ 7950 5150
+Wire Wire Line
+	7450 4950 7200 4950
+Connection ~ 7450 4950
+Wire Wire Line
+	7450 5150 7200 5150
+Connection ~ 7450 5150
+Text HLabel 7200 5150 0    50   Input ~ 0
+GND
+Text HLabel 7200 4950 0    50   Input ~ 0
+VCC
 $EndSCHEMATC

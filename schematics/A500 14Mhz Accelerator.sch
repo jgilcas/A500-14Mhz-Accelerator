@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:A500 14Mhz Accelerator-cache
-LIBS:A500 FastRAM-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -19,19 +18,6 @@ Text Label 5650 1200 1    50   ~ 0
 VCC
 Text Label 5850 1200 1    50   ~ 0
 VCC
-$Comp
-L Device:C_Small C1
-U 1 1 5CD38842
-P 5950 850
-F 0 "C1" V 6179 850 50  0000 C CNN
-F 1 "0.1uF" V 6088 850 50  0000 C CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 5950 850 50  0001 C CNN
-F 3 "~" H 5950 850 50  0001 C CNN
-	1    5950 850 
-	0    -1   -1   0   
-$EndComp
-Text Label 6050 850  0    50   ~ 0
-GND
 Text Notes 8250 7650 0    50   ~ 0
 2019-05-03
 Text Notes 10650 7650 0    50   ~ 0
@@ -322,13 +308,6 @@ Text Label 6750 5900 0    50   ~ 0
 CPU_LDS
 Text Label 6750 6000 0    50   ~ 0
 CPU_RW
-Wire Wire Line
-	5850 1200 5850 850 
-Wire Wire Line
-	5850 850  5650 850 
-Wire Wire Line
-	5650 850  5650 1200
-Connection ~ 5850 850 
 Text Label 4750 1600 2    50   ~ 0
 CPU_CLK14
 Text Label 4750 5200 2    50   ~ 0
