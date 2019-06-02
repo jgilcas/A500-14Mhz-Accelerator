@@ -8,7 +8,7 @@ Yeah i know, there's a load of accelerators out there (the TF520/530/534 by the 
 1) It's 100% through hole soldering, no SMT parts - easy for a beginner or for someone with shaky hands like me.
 2) It's cheap to build
 3) Uses simple logic gates - no fancy-schmancy CPLD/FPGA gubbins ;)
-4) It's...err...it's...it's green.
+4) It's...err...it's...it's green (well, it can be if you choose that colour solder mask!)
 
 Stacking with the 8MB FastRAM board works a treat although clearance with the top case in an A500 miiiiight be an issue. 
 
