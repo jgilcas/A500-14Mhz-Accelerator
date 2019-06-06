@@ -735,4 +735,40 @@ Text HLabel 7200 5150 0    50   Input ~ 0
 GND
 Text HLabel 7200 4950 0    50   Input ~ 0
 VCC
+$Comp
+L Device:C_Small C11
+U 1 1 5CF99995
+P 7450 5450
+F 0 "C11" H 7542 5496 50  0000 L CNN
+F 1 "0.1uF" H 7542 5405 50  0000 L CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 7450 5450 50  0001 C CNN
+F 3 "~" H 7450 5450 50  0001 C CNN
+	1    7450 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C12
+U 1 1 5CF99CD7
+P 7950 5450
+F 0 "C12" H 8042 5496 50  0000 L CNN
+F 1 "0.1uF" H 8042 5405 50  0000 L CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 7950 5450 50  0001 C CNN
+F 3 "~" H 7950 5450 50  0001 C CNN
+	1    7950 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 5350 7950 5350
+Wire Wire Line
+	7950 5550 7450 5550
+Wire Wire Line
+	7450 5350 7200 5350
+Connection ~ 7450 5350
+Wire Wire Line
+	7450 5550 7200 5550
+Connection ~ 7450 5550
+Text HLabel 7200 5350 0    50   Input ~ 0
+VCC
+Text HLabel 7200 5550 0    50   Input ~ 0
+GND
 $EndSCHEMATC
