@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/Users/kai/Documents/A500 KiCad Projects/A500 14Mhz Accelerator/A500 14Mhz Accelerator.sch")
-    (date "Thursday, 06 June 2019 at 21:14:34")
+    (date "Tuesday, 11 June 2019 at 23:46:45")
     (tool "Eeschema (5.1.2-1)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -28,7 +28,7 @@
   (components
     (comp (ref U1)
       (value "68000 Boardside")
-      (footprint Package_DIP:DIP-64_W25.4mm_SIL_Headers)
+      (footprint Package_DIP:DIP-64_W22.86mm_LongPads)
       (datasheet https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf)
       (libsource (lib CPU_NXP_68000) (part 68000D) (description "16/32-bit Microprocessor"))
       (sheetpath (names /) (tstamps /))
